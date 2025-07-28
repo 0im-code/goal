@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>July Goal Tracker</title>
+  <title>31 days Goal Tracker</title>
   <style>
     body {
       font-family: Arial, sans-serif;

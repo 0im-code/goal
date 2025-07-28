@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>31 days Goal Tracker</title>
+  <title>monthly Goal Tracker</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -84,7 +84,7 @@
   </style>
 </head>
 <body>
-  <h1>July 2025 Goal Tracker</h1>
+  <h1>31 days Goal Tracker</h1>
 
   <div id="addGoalForm">
     <input type="text" id="goalInput" placeholder="Enter new goal..." />
@@ -104,8 +104,8 @@
     const goalInput = document.getElementById("goalInput");
     const addGoalBtn = document.getElementById("addGoalBtn");
 
-    const year = 2025;
-    const month = 6; // July = 6
+    const year = any;
+    const month = 1,3,5,7,8,10,or12; // January,march,may,july,august,october,ordecember = 1,3,5,7,8,10,or12
     const daysInMonth = 31;
     const storageKey = "goal-grid-july2025";
 
@@ -173,7 +173,7 @@
       for (let d = 1; d <= daysInMonth; d++) {
         const tr = document.createElement("tr");
         const dateCell = document.createElement("td");
-        dateCell.textContent = `July ${d}`;
+        dateCell.textContent = ${d}`;
         tr.appendChild(dateCell);
 
         const dayKey = d.toString();
